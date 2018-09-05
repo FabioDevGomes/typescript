@@ -1,9 +1,9 @@
-# Angular
+﻿# Angular
 
-ng build
-ng serve / npm start (inicia a aplicação - estudo)
-tsc fileName (compila arquivo ts)
-node fileName (executa arquivo compilado js)
+ng build  
+ng serve / npm start (inicia a aplicação - estudo)  
+tsc fileName (compila arquivo ts)  
+node fileName (executa arquivo compilado js)  
 
 
 Angular is a development platform for building mobile and desktop web applications using Typescript/JavaScript and other languages.
