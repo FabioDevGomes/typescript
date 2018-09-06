@@ -13,7 +13,7 @@ Usar property binding sempre que quiser passar um valor que não seja string
 
 ## Quickstart
 
-[Get started in 5 minutes][quickstart].
+[Get started in 5 minutes][quickstart].   
 
 
 ## Changelog
