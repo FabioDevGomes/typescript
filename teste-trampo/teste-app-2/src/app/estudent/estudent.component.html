@@ -1,0 +1,12 @@
+<div>
+  <div [hidden]="estudante.isJedi">
+    Padawan: {{estudante.name}}
+  </div>
+  <div [hidden]="!estudante.isJedi" [class.dashed]="!estudante.isJedi">
+    Mestre Jedi: {{estudante.name}}
+    templo: {{estudante.temple}}
+  </div>
+  <div *ngIf="estudante.isJedi" [class.dashed]="estudante.isJedi">
+    Valor exibido usando diretiva *ngIf
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<p>
+  first works! {{title3}}
+</p>
+<p>
+  first again {{user.name}}
+</p>
+<input type="text" [value]="user.name">
+
+<div [hidden]="!user.isJedi" [class.biding]="user.isJedi">
+  Conteúdo exibido somente para Jedi
+</div>
+<div [hidden]="user.isJedi">
+    Conteúdo exibido somente para Padawan
+ </div>
